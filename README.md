@@ -1,8 +1,9 @@
 # alu-system_engineering-devops
 
-This repository contains my system engineering and DevOps projects.
+This repository contains system engineering and DevOps projects.
 
-## Projects
+## load_balancer
 
-- **ssh**: Connecting to a remote server with SSH keys, creating an SSH config file, and adding keys to a server.
-- **web_server**: Transferring files to a web server with `scp` (`0-transfer_file`).
+Configuring web servers behind a load balancer.
+
+- `0-custom_http_response_header`: Bash script that configures Nginx on a new Ubuntu machine to add a custom `X-Served-By` HTTP response header containing the server's hostname.
